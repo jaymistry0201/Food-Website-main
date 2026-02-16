@@ -5,7 +5,7 @@ import Stripe from "stripe";
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 // ✅ Set Frontend URL
-const FRONTEND_URL = "http://localhost:5174";
+const FRONTEND_URL = "https://food-del-frontend-qssp.onrender.com";
 
 // 🛒 Place Order & Create Stripe Checkout Session
 const placeOrder = async (req, res) => {
